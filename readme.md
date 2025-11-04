@@ -10,6 +10,10 @@ Ogni utente può creare dei post, al quale può aggiungere media come foto e vid
 - Posts
 - Media
 
+relational
+- Likes
+- media_post
+
 ### Table: Users
 
 - id
@@ -34,7 +38,9 @@ Ogni utente può creare dei post, al quale può aggiungere media come foto e vid
 ### Table: Media
 
 - id
-- uri
+- url
 - type
 - alt_text
 - caption
+
+
