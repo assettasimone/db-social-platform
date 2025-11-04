@@ -34,7 +34,7 @@ relational
 - user_id
 
 
-### Table: media
+### Table: medias
 
 - id
 - url
