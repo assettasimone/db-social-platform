@@ -6,15 +6,15 @@ Ogni utente può creare dei post, al quale può aggiungere media come foto e vid
 
 ## Tables
 
-- Users
-- Posts
-- Media
+- users
+- posts
+- media
 
 relational
-- Likes
+- likes
 - media_post
 
-### Table: Users
+### Table: users
 
 - id
 - f_name
@@ -23,10 +23,9 @@ relational
 - password
 - email
 - birthdate
-- profile_pic
+- profile_pic_url
 
-
-### Table: Posts
+### Table: posts
 
 - id
 - title
@@ -35,7 +34,7 @@ relational
 - user_id
 
 
-### Table: Media
+### Table: media
 
 - id
 - url
@@ -44,3 +43,15 @@ relational
 - caption
 
 
+### Table: likes
+
+- id
+- user_id
+- post_id
+- date
+
+### Table: media_post
+
+- id
+- post_id
+- media_id
